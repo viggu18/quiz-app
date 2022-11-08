@@ -1,0 +1,43 @@
+.home-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+}
+
+.header-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: white;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%);
+}
+
+.quiz {
+  color: #ff3b3c;
+  font-size: 35px;
+}
+
+.align-bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 12vh;
+  left: 7.5vw;
+}
