@@ -1,21 +1,36 @@
 .home-container {
   display: flex;
-  width: 100%;
-  height: 100%;
   flex-direction: column;
+  width: 393px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    hsla(0, 33%, 93%, 0.953) 7.92%,
+    #af9cf3 86.48%
+  );
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 8%;
   width: 100%;
 }
 
 .header-title {
   font-size: 20px;
   font-weight: 700;
+}
+
+.circle-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: black;
 }
 
 .circle {
@@ -27,17 +42,9 @@
   height: 250px;
   border-radius: 50%;
   background-color: white;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%);
 }
 
 .quiz {
   color: #ff3b3c;
   font-size: 35px;
-}
-
-.align-bottom {
-  position: absolute;
-  width: 100%;
-  bottom: 12vh;
-  left: 7.5vw;
 }

@@ -1,0 +1,25 @@
+.result-container {
+  display: flex;
+  flex-direction: column;
+  width: 393px;
+  align-items: center;
+}
+
+.top-bar {
+  display: flex;
+  width: 393px;
+  height: 200px;
+  background-color: rgba(175, 156, 243, 1);
+}
+
+.bottom-bar {
+  display: flex;
+  height: 86%;
+  width: 393px;
+  bottom: 0;
+  position: absolute;
+  background-color: white;
+  border-radius: 60px 60px 0px 0px;
+  align-items: center;
+  flex-direction: column;
+}

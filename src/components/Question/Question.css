@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 393px;
+}
+
+.top-bar {
+  display: flex;
+  height: 200px;
+  background-color: rgba(175, 156, 243, 1);
+}
+
+.progress-bar {
+  width: 200px;
+  height: 200px;
+}
+
+.question-container {
+  display: flex;
+  height: 86%;
+  width: 393px;
+  bottom: 0;
+  position: absolute;
+  background-color: white;
+  border-radius: 60px 60px 0px 0px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.question-holder {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  display: flex;
+  width: 80%;
+  height: auto;
+  justify-content: center;
+}
+
+.question {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.progress-style {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,13 +1,19 @@
+.button-container {
+  bottom: 20px;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
 .button {
   display: flex;
   background: #ff3b3f;
   border-radius: 80px;
-  width: 85vw;
-  height: 8vh;
+  width: 280px;
+  height: 55px;
   align-items: center;
-  align-self: center;
   justify-content: center;
-  bottom: 12vw;
+  bottom: 10%;
   padding: 0;
   border: none;
 }
@@ -16,4 +22,10 @@
   font-size: 20px;
   font-weight: 600;
   color: white;
+}
+
+.right-arrow {
+  position: absolute;
+  width: 100px;
+  right: 30px;
 }

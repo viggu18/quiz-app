@@ -1,0 +1,58 @@
+.proportion-container {
+  display: flex;
+  width: 350px;
+  height: 80px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.container-positive {
+  background: #b3e8cc;
+}
+.container-negative {
+  background: #d46b6d;
+}
+
+.circle-holder {
+  display: flex;
+  width: 20%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.circle-positive {
+  background: #44b77b;
+}
+
+.circle-negative {
+  background: #ff3b3f;
+}
+.prop-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outcome {
+  color: #000000;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.outcome2 {
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+}
