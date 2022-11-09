@@ -1,0 +1,30 @@
+.add-bg {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.progressbar-container {
+  width: 140px;
+  height: 140px;
+}
+
+.progressbar-text {
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  color: rgba(153, 153, 153, 1);
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.currentQuestion {
+  font-family: "Nunito", sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 900;
+  color: black;
+}
