@@ -1,18 +1,18 @@
 Extra libraries used
 ```
-"react-router-dom"
+npm install react-router-dom
 ``` 
 for navigating between pages
 ```
-"react-gauge-chart"
+npm install react-gauge-chart --force
 ``` 
 for final gauge chart display
 ```
-"react-circular-progressbar"
+npm install react-circular-progressbar
 ``` 
 for progress into total number of questions
 ```
-"react-icons" 
+npm install react-icons 
 ``` 
 for add icons inside the app
 
