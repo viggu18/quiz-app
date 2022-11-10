@@ -34,6 +34,7 @@ function Options({
 
   return (
     <div
+      style={unselectable ? { background: "white" } : {}}
       className={`options-container ${
         state.includes(optionText) ? "options-container-selected" : ""
       }`}
