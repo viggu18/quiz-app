@@ -45,7 +45,7 @@ const App = () => {
   console.log(answers);
   return (
     <div className="app">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route exact path="/" element={<Home setState={setQuestions} />} />
           <Route
