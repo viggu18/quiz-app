@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/viggu18.github.io/quiz-app/static/css/main.c71e662d.css",
+    "main.js": "/viggu18.github.io/quiz-app/static/js/main.9250f59f.js",
+    "index.html": "/viggu18.github.io/quiz-app/index.html",
+    "main.c71e662d.css.map": "/viggu18.github.io/quiz-app/static/css/main.c71e662d.css.map",
+    "main.9250f59f.js.map": "/viggu18.github.io/quiz-app/static/js/main.9250f59f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c71e662d.css",
+    "static/js/main.9250f59f.js"
+  ]
+}
