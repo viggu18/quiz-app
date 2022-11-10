@@ -9,6 +9,7 @@ const Button = ({ title, onClick }) => {
         <a className="btn-text">{title}</a>
         {title == "Next" ? (
           <div className="right-arrow">
+            {/* to style the icons used inside the button */}
             <IconContext.Provider
               value={{
                 color: "white",

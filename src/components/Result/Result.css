@@ -23,3 +23,14 @@
   align-items: center;
   flex-direction: column;
 }
+
+.page-title {
+  margin: 15px;
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2em;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
