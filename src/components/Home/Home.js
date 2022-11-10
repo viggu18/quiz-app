@@ -18,19 +18,19 @@ const Home = ({ buttonHandler, setState }) => {
   };
 
   return (
-    <>
-      <div className="home-container">
-        <div className="header">
-          <h3 className="header-title">upraised</h3>
-        </div>
+    <div className="home-container">
+      <div className="header">
+        <h3 className="header-title">upraised</h3>
+      </div>
+      <>
         <div className="circle-holder">
           <div className="circle">
             <a className="quiz">Quiz</a>
           </div>
         </div>
-        <Button title={"Start"} onClick={buttonClick} />
-      </div>
-    </>
+      </>
+      <Button title={"Start"} onClick={buttonClick} />
+    </div>
   );
 };
 

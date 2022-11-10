@@ -31,12 +31,13 @@ function Result({ questions, answers, setAnswers }) {
       if (item.multipleAnswers) {
         item.correctAnswers.map((ans) => {
           if (item.userAnswers.includes(ans)) {
-            setMatch(!match);
             // When one of the answers selected from the user to the questions which have multiple answers user is awarded with full marks
             setScore((prevVal) => prevVal + scorePerQuestion);
+            count = count + 1;
+            console.log(match);
           }
         });
-        if (match) {
+        if (count > 0) {
           setOutcome((outcome) => ({
             ...outcome,
             correct: outcome.correct + 1,
@@ -72,7 +73,7 @@ function Result({ questions, answers, setAnswers }) {
     } else {
       generateScore();
     }
-  }, []);
+  });
 
   // Answer object is resetted to null when user clicks try again
   const buttonHandler = () => {
